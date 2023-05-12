@@ -9,6 +9,7 @@
 ---
 
 ![Portada Del Proyecto](img/portada_proyecto.png)
+
 👉 [Link del Proyecto](https://www.tinkercad.com/things/cdI0Q7Ipu1Y)
 
 ## Descripción
@@ -43,10 +44,9 @@ El recorrido comienza en Constitucion y termina en Moreno (3 estaciones). Una ve
 
 ### Display 7 Segmentos
 
-![Display 7 segmentos](img/7segmentos.png)
-Cada letra dentro del **array** representa un led del display 7 segmentos.
+![Display 7 segmentos](.\img\7segmentos.png)
 
-<br>
+Cada letra dentro del **array** representa un led del display 7 segmentos.
 
 ```c++
 void ApagarPrender7Segmentos(int apagarPrender)
@@ -90,8 +90,6 @@ void NumeroTres()
 ```
 
 Cada función enciende y/o apaga los segmentos del display según sea necesario para mostrar el número correspondiente (0-3).
-
-<br>
 
 ### Cuenta Regresiva
 
